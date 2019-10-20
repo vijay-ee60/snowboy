@@ -4,8 +4,10 @@ from setuptools import setup, find_packages
 from distutils.command.build import build
 from distutils.dir_util import copy_tree
 from subprocess import call
+/*
+topic ka namechange kr
 
-
+*/
 py_dir = 'Python' if sys.version_info[0] < 3 else 'Python3'
 
 class SnowboyBuild(build):
